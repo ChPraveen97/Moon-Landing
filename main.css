@@ -1,0 +1,164 @@
+html {
+  background-image: url(/Images/Aldrin_Looks_Back_at_Tranquility_Base.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkgray;
+  line-height: 1.5;
+}
+
+header {
+  color: rgba(255, 255, 255, 0.925);
+  text-align: center;
+  background-color: rgb(107, 107, 107);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: normal;
+  font-size: 150%;
+  background-image: url(/Images/48290240396_054eca5b3b_o.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:auto;
+}
+
+h1,
+header p {
+  margin: 0;
+  margin: 0;
+}
+
+/*Start Site Navigation*/
+
+.site-navigation {
+  margin-top: 10px;
+}
+
+.site-navigation a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border: 3px solid gray;
+  border-bottom: none;
+
+  margin-right: 10px;
+}
+
+.site-navigation a:hover {
+  background-color: darkgray;
+  color: rgba(255, 255, 255, 0.925);
+}
+
+.site-navigation ul {
+  margin: 0;
+  padding: 0;
+}
+.site-navigation ul li {
+  list-style: none;
+  float: left;
+}
+.fix {
+  clear: both;
+}
+/*End Site Navigation*/
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: whitesmoke;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box; 
+}
+
+.content-area {
+  max-width: 70%;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  margin-bottom: 10px;
+}
+
+article{
+  padding-right: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  text-indent: 25px;
+}
+
+.side-bar {
+  color: bisque;
+  align-self: auto;
+  font-size: 100%;
+  max-width: 30%;
+  float: right;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom, rgb(104, 104, 104), rgb(153, 153, 153));
+}
+
+.side-bar-article {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.side-bar-header {
+  background-color: darkgray;
+  text-align: center;
+  padding: 20px;
+  padding-left: auto;
+  padding-right: auto;
+  box-sizing: border-box;
+}
+
+.side-bar-article a{
+  text-decoration: none;
+}
+
+/*Image banner relative position*/
+.banner_image{
+    position: relative;
+}
+
+.banner_image img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.banner_description{
+    position: absolute;
+    bottom: -16px;
+    left : 0px;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.644);
+    color:rgba(255, 255, 255, 0.925);
+    box-sizing: border-box;
+
+}
+/*End Image banner relative position*/
+
+/*Comment Input Start*/
+input[type = "text"]{
+    width: 70%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 30px;
+}
+textarea{
+    display: block;
+    width: 70%;
+    box-sizing: border-box;
+    height: 50%;
+}
+/*Comment Input End*/
+
+/*Footer*/
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 85%;
+    color: grey;
+}
+/*Footer*/
